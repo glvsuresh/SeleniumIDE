@@ -1,0 +1,20 @@
+===========================================================================================
+Running Selenium IDE test cases on other browsers:
+===========================================================================================
+Here are the steps needs to follow In order to run Selenium IDE Test cases on other browser
+
+--> Open Selenium IDE
+--> Go to Options menu --> Click on Options submenu
+--> Click on WebDriver Tab
+--> Check Enable WebDriver Playback checkbox.
+--> Provide the browser name such chrome or firefox or internet explorer etc..
+--> Restart IDE
+
+--> Open command Prompt
+--> Change directory to your Selenium Server path.
+--> Type following command and click on Enter
+
+"java -jar selenium-server-standalone-2.53.0.jar -Dwebdriver.chrome.driver=chromedriver.exe"
+
+--> Once Selenium server is up and running go to your selenium IDE 
+--> Run the test case, it will be executed on Chrome browser

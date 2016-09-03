@@ -1,0 +1,3 @@
+Selenium.prototype.doNothing = function()
+{
+}

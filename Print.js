@@ -1,0 +1,3 @@
+Selenium.prototype.doPrint = function()
+{
+}
